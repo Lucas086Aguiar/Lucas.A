@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* img.logo */
+
+header img{
+    height: 60px;
+    width: 65px;
+    border-radius: 20px;
+}
+
+/* Peças */
+
+#section-peças img {
+    height: 400px;
+}
+
+#section-peças {
+    text-align: center;
+}
+
+#section-peças h2{
+    font: bold;
+    padding: 30px;
+}
+
+#section-peças img {
+    height: 150px;
+    border-radius: 50px;
+}
+
+#section-peças .card{
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+#section-peças .preco{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#section-peças .btn{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: px;
+    color: white;
+    text-decoration: none;
+
+}
