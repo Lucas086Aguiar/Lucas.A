@@ -1,14 +1,40 @@
 @charset "UTF-8";
 
+*{
+    margin: 0%;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
 /* img.logo */
 
 header img{
     height: 60px;
     width: 65px;
     border-radius: 20px;
+    padding: 10px;
 }
 
+/* textos do Topi */
+.texto-topo{
+    text-align: center;
+    color: red;
+    background-color: black;
+    padding: 10px;
+    
+}
+
+
 /* Peças */
+
+.card-group{
+    display: inline-flex;
+    background-color: #cfdbe9;
+    max-height: 500px;
+    max-width: 100%;
+    padding-top: 50px;
+    
+}
 
 #section-peças img {
     height: 400px;
@@ -16,11 +42,6 @@ header img{
 
 #section-peças {
     text-align: center;
-}
-
-#section-peças h2{
-    font: bold;
-    padding: 30px;
 }
 
 #section-peças img {
@@ -43,7 +64,28 @@ header img{
     padding: 10px;
     border-radius: 10px;
     font-size: px;
-    color: white;
+    color: red;
     text-decoration: none;
 
+}
+
+/* serviços */
+
+.card-group2{
+    display: inline-flex;
+    background-color: #cfdbe9;
+    max-height: 100%px;
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+.card-group2 img{
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+footer{
+    background-color: black;
+    color: red;
 }
